@@ -1,27 +1,32 @@
-# Font Group Manager
+# 📚 Gutenberg Books Explorer
 
-A React component that allows users to create and manage font groups with customizable rows, font selection. Ideal for use in e-commerce platforms, typography tools, or any interface requiring grouped font configurations.
+A React-based application that allows users to explore books from the [Gutenberg Project API](https://gutendex.com/), search by title, filter by genre, paginate results, and manage a personal wishlist—all saved in localStorage.
 
-## Features
+## 🚀 Features
 
-- Add/edit a font group with a title
-- Dynamically add/remove rows for font grouping
-- Each row supports:
-  - Custom row title
-  - Multiple font selection from a predefined list
-  - Font size and price change controls
-- Editable form state for updating existing groups
-- Simple and responsive UI built with Tailwind CSS
+- 🔍 Search books by title
+- 🧠 Filter by genre (subjects)
+- 📄 Paginated book listing (32 books per page)
+- 💖 Wishlist management (add/remove books to wishlist)
+- 📘 Book details page with rich info and "Read Online" link
+- 🧠 LocalStorage integration for persisting search, genre, and wishlist
+- 🎨 Responsive and clean UI with Tailwind CSS
+
+## 🛠 Tech Stack
+
+- React
+- React Router DOM
+- Tailwind CSS
+- Gutenberg Project API (https://gutendex.com)
 
 ## Demo
 
-https://font-group-system-nine.vercel.app/
+https://gutendex-book-list.vercel.app
 
-## Installation
+## 📦 Installation
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/font-group-manager.git
-cd font-group-manager
-```
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/gutenberg-books.git
+   cd gutenberg-books
+   ```
