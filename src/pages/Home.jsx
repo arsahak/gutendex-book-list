@@ -66,7 +66,7 @@ const Home = () => {
   };
 
   return (
-    <div className="container mx-auto mt-32">
+    <div className="container mx-auto mt-24 md:mt-32 px-6 md:px-0">
       
       {/* Books Search and Fillter by genres */}
 
